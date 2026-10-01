@@ -17,8 +17,12 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy){
         if (buddy != null) {
             buddyList.remove(buddy);
-            print("Just adding a change to commit");
+            System.out.println("Just adding a change to commit");
         }
+    }
+
+    public void newFunction(){
+        System.out.println("Testing Branching");
     }
 
     public static void main(String[] args){
@@ -27,4 +31,5 @@ public class AddressBook {
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
     }
+
 }
