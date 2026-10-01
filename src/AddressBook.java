@@ -17,7 +17,7 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddy){
         if (buddy != null) {
             buddyList.remove(buddy);
-            print("Just adding a change to commit");
+            System.out.println("Just adding a change to commit");
         }
     }
 
